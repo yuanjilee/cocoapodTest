@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>BetterSegmentedControl.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-CocoapodTest-AFramework.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-CocoapodTest.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>2E13B5BED48305DAFCA2C71A8E98913B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8FCD0C33F43ABD348B5B8A8C26E8701F</key>
+		<key>A515FD000AF53C72B6D7AF91CEB6D63F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DE4264980E03C43B1EEC68FA265B821C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

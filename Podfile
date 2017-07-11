@@ -6,6 +6,17 @@ target 'CocoapodTest' do
   
   pod 'Alamofire'
 
+
+
+  target 'AFramework' do
+    use_frameworks!
+
+    project 'AFramework/AFramework.xcodeproj'
+    workspace '../../CocoapodTest.xcodeproj'
+    
+ 	pod 'BetterSegmentedControl'
+  end
+
 end
 
 post_install do |installer|

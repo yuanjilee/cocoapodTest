@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import AFramework
 
 class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    let segmentControl = BetterSegmentedControl(frame: CGRect(x: 0, y: 0, width: 300, height: 100), titles: ["1", "2", "3"], index: 0, backgroundColor: .red, titleColor: .gray, indicatorViewBackgroundColor: .blue, selectedTitleColor: .yellow)
+    view.addSubview(segmentControl)
   }
 
   override func didReceiveMemoryWarning() {
