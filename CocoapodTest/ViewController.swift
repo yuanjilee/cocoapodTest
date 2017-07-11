@@ -15,9 +15,18 @@ class ViewController: UIViewController {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
     
+    var titles: [String] = []
     
-    let segmentControl = BetterSegmentedControl(frame: CGRect(x: 0, y: 0, width: 300, height: 100), titles: ["1", "2", "3"], index: 0, backgroundColor: .red, titleColor: .gray, indicatorViewBackgroundColor: .blue, selectedTitleColor: .yellow)
+    #if DDEVELOPMENT
+      titles = ["1", "2", "3"]
+    #else
+      titles = ["4", "5", "6"]
+    #endif
+    
+    let segmentControl = BetterSegmentedControl(frame: CGRect(x: 0, y: 0, width: 300, height: 100), titles: titles, index: 0, backgroundColor: .red, titleColor: .gray, indicatorViewBackgroundColor: .blue, selectedTitleColor: .yellow)
     view.addSubview(segmentControl)
+    
+    
   }
 
   override func didReceiveMemoryWarning() {
