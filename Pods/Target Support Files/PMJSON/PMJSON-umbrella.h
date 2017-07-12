@@ -10,7 +10,8 @@
 #endif
 #endif
 
+#import "PMJSON.h"
 
-FOUNDATION_EXPORT double Pods_CocoapodTest_AFrameworkVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_CocoapodTest_AFrameworkVersionString[];
+FOUNDATION_EXPORT double PMJSONVersionNumber;
+FOUNDATION_EXPORT const unsigned char PMJSONVersionString[];
 

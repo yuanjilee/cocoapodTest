@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double BetterSegmentedControlVersionNumber;
-FOUNDATION_EXPORT const unsigned char BetterSegmentedControlVersionString[];
+FOUNDATION_EXPORT double AFrameworkVersionNumber;
+FOUNDATION_EXPORT const unsigned char AFrameworkVersionString[];
 

@@ -8,6 +8,8 @@
 
 import UIKit
 import AFramework
+import Alamofire
+import PMJSON
 
 class ViewController: UIViewController {
 
@@ -23,9 +25,10 @@ class ViewController: UIViewController {
       titles = ["4", "5", "6"]
     #endif
     
+
     let segmentControl = BetterSegmentedControl(frame: CGRect(x: 0, y: 0, width: 300, height: 100), titles: titles, index: 0, backgroundColor: .red, titleColor: .gray, indicatorViewBackgroundColor: .blue, selectedTitleColor: .yellow)
     view.addSubview(segmentControl)
-    
+
     
   }
 

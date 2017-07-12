@@ -5,17 +5,8 @@ target 'CocoapodTest' do
   use_frameworks!
   
   pod 'Alamofire'
+  pod 'AFramework', :path=>'/Users/yuanjilee/Desktop/iOS_Demo/CocoapodTest/AFramework'
 
-
-
-  target 'AFramework' do
-    use_frameworks!
-
-    project 'AFramework/AFramework.xcodeproj'
-    workspace '../../CocoapodTest.xcodeproj'
-    
- 	pod 'BetterSegmentedControl'
-  end
 
 end
 

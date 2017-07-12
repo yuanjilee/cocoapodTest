@@ -1,15 +1,22 @@
 PODS:
+  - AFramework (0.1.0):
+    - PMJSON
   - Alamofire (4.4.0)
-  - BetterSegmentedControl (0.7)
+  - PMJSON (2.0.2)
 
 DEPENDENCIES:
+  - AFramework (from `/Users/yuanjilee/Desktop/iOS_Demo/CocoapodTest/AFramework`)
   - Alamofire
-  - BetterSegmentedControl
+
+EXTERNAL SOURCES:
+  AFramework:
+    :path: /Users/yuanjilee/Desktop/iOS_Demo/CocoapodTest/AFramework
 
 SPEC CHECKSUMS:
+  AFramework: f8877bc7326523c88228e12aa153d95ac2b0fb09
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
-  BetterSegmentedControl: 0b4dde1caac22de345820858a5e2789132378c1c
+  PMJSON: 1887d12b6a85b3c9f9d1a7e4b32860d4901d9505
 
-PODFILE CHECKSUM: 8eb613426ce798d3632a7080cd00f5e038c95a23
+PODFILE CHECKSUM: abfc290fbf0fba1eefaf9f7a590762958ece38a7
 
 COCOAPODS: 1.3.0.beta.2

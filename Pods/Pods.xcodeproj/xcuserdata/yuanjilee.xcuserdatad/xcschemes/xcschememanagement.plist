@@ -4,17 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AFramework.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Alamofire.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>BetterSegmentedControl.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-CocoapodTest-AFramework.xcscheme</key>
+		<key>PMJSON.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -27,7 +27,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2E13B5BED48305DAFCA2C71A8E98913B</key>
+		<key>272C5690565DB2B65400A114993CC37E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>462161435CD97512DBA6B78F3F015CF0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -37,12 +42,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A515FD000AF53C72B6D7AF91CEB6D63F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DE4264980E03C43B1EEC68FA265B821C</key>
+		<key>A857747A6D8ED1A65E7380955FBA54DC</key>
 		<dict>
 			<key>primary</key>
 			<true/>

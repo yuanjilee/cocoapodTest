@@ -15,15 +15,11 @@
 		7A9ABE771F1392C100513BFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A9ABE751F1392C100513BFC /* LaunchScreen.storyboard */; };
 		7A9ABE821F1392C100513BFC /* CocoapodTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9ABE811F1392C100513BFC /* CocoapodTestTests.swift */; };
 		7A9ABE8D1F1392C100513BFC /* CocoapodTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9ABE8C1F1392C100513BFC /* CocoapodTestUITests.swift */; };
-		7A9ABEDE1F14B1B300513BFC /* AFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9ABED81F14AB7300513BFC /* AFramework.framework */; };
-		7A9ABEDF1F14B1B300513BFC /* AFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9ABED81F14AB7300513BFC /* AFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7A9ABEE91F14B98200513BFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9ABE6E1F1392C100513BFC /* ViewController.swift */; };
 		7A9ABEEA1F14B98200513BFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9ABE6C1F1392C100513BFC /* AppDelegate.swift */; };
-		7A9ABEED1F14B98200513BFC /* AFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9ABED81F14AB7300513BFC /* AFramework.framework */; };
 		7A9ABEEF1F14B98200513BFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A9ABE751F1392C100513BFC /* LaunchScreen.storyboard */; };
 		7A9ABEF01F14B98200513BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A9ABE731F1392C100513BFC /* Assets.xcassets */; };
 		7A9ABEF11F14B98200513BFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A9ABE701F1392C100513BFC /* Main.storyboard */; };
-		7A9ABEF51F14B98200513BFC /* AFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9ABED81F14AB7300513BFC /* AFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AF009763ED3F2C6AF95DAA94 /* Pods_CocoapodTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20AE2D182751FE7230CD8F6B /* Pods_CocoapodTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,34 +38,6 @@
 			remoteGlobalIDString = 7A9ABE681F1392C100513BFC;
 			remoteInfo = CocoapodTest;
 		};
-		7A9ABED71F14AB7300513BFC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7A9ABED21F14AB7300513BFC /* AFramework.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 7A9ABEB61F14A94500513BFC;
-			remoteInfo = AFramework;
-		};
-		7A9ABED91F14AB7300513BFC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7A9ABED21F14AB7300513BFC /* AFramework.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 7A9ABEBF1F14A94500513BFC;
-			remoteInfo = AFrameworkTests;
-		};
-		7A9ABEE01F14B1B300513BFC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7A9ABED21F14AB7300513BFC /* AFramework.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 7A9ABEB51F14A94500513BFC;
-			remoteInfo = AFramework;
-		};
-		7A9ABEE61F14B98200513BFC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7A9ABED21F14AB7300513BFC /* AFramework.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 7A9ABEB51F14A94500513BFC;
-			remoteInfo = AFramework;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -79,7 +47,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				7A9ABEDF1F14B1B300513BFC /* AFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,7 +57,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				7A9ABEF51F14B98200513BFC /* AFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -112,7 +78,6 @@
 		7A9ABE881F1392C100513BFC /* CocoapodTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoapodTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A9ABE8C1F1392C100513BFC /* CocoapodTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoapodTestUITests.swift; sourceTree = "<group>"; };
 		7A9ABE8E1F1392C100513BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A9ABED21F14AB7300513BFC /* AFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AFramework.xcodeproj; path = AFramework/AFramework.xcodeproj; sourceTree = "<group>"; };
 		7A9ABEF91F14B98200513BFC /* CocoapodTestPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoapodTestPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A9ABEFA1F14B98300513BFC /* CocoapodTest copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CocoapodTest copy-Info.plist"; path = "/Users/yuanjilee/Desktop/iOS_Demo/CocoapodTest/CocoapodTest copy-Info.plist"; sourceTree = "<absolute>"; };
 		8E2B9167B4E249C422464F60 /* Pods-CocoapodTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoapodTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CocoapodTest/Pods-CocoapodTest.debug.xcconfig"; sourceTree = "<group>"; };
@@ -125,7 +90,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				69507A5A683D9534F6A4FA53 /* Pods_CocoapodTest.framework in Frameworks */,
-				7A9ABEDE1F14B1B300513BFC /* AFramework.framework in Frameworks */,
 				AF009763ED3F2C6AF95DAA94 /* Pods_CocoapodTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,7 +112,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A9ABEED1F14B98200513BFC /* AFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,7 +121,6 @@
 		7A9ABE601F1392C100513BFC = {
 			isa = PBXGroup;
 			children = (
-				7A9ABED21F14AB7300513BFC /* AFramework.xcodeproj */,
 				7A9ABE6B1F1392C100513BFC /* CocoapodTest */,
 				7A9ABE801F1392C100513BFC /* CocoapodTestTests */,
 				7A9ABE8B1F1392C100513BFC /* CocoapodTestUITests */,
@@ -211,15 +173,6 @@
 			path = CocoapodTestUITests;
 			sourceTree = "<group>";
 		};
-		7A9ABED31F14AB7300513BFC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7A9ABED81F14AB7300513BFC /* AFramework.framework */,
-				7A9ABEDA1F14AB7300513BFC /* AFrameworkTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		7CFF52936F2E68A5A00E479E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -255,7 +208,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				7A9ABEE11F14B1B300513BFC /* PBXTargetDependency */,
 			);
 			name = CocoapodTest;
 			productName = CocoapodTest;
@@ -310,7 +262,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				7A9ABEE51F14B98200513BFC /* PBXTargetDependency */,
 			);
 			name = CocoapodTestPro;
 			productName = CocoapodTest;
@@ -360,12 +311,6 @@
 			mainGroup = 7A9ABE601F1392C100513BFC;
 			productRefGroup = 7A9ABE6A1F1392C100513BFC /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 7A9ABED31F14AB7300513BFC /* Products */;
-					ProjectRef = 7A9ABED21F14AB7300513BFC /* AFramework.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				7A9ABE681F1392C100513BFC /* CocoapodTest */,
@@ -375,23 +320,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		7A9ABED81F14AB7300513BFC /* AFramework.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AFramework.framework;
-			remoteRef = 7A9ABED71F14AB7300513BFC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		7A9ABEDA1F14AB7300513BFC /* AFrameworkTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = AFrameworkTests.xctest;
-			remoteRef = 7A9ABED91F14AB7300513BFC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		7A9ABE671F1392C100513BFC /* Resources */ = {
@@ -471,13 +399,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CocoapodTest/Pods-CocoapodTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFramework/AFramework.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/BetterSegmentedControl/BetterSegmentedControl.framework",
+				"${BUILT_PRODUCTS_DIR}/PMJSON/PMJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFramework.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BetterSegmentedControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PMJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -533,16 +463,6 @@
 			isa = PBXTargetDependency;
 			target = 7A9ABE681F1392C100513BFC /* CocoapodTest */;
 			targetProxy = 7A9ABE891F1392C100513BFC /* PBXContainerItemProxy */;
-		};
-		7A9ABEE11F14B1B300513BFC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AFramework;
-			targetProxy = 7A9ABEE01F14B1B300513BFC /* PBXContainerItemProxy */;
-		};
-		7A9ABEE51F14B98200513BFC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AFramework;
-			targetProxy = 7A9ABEE61F14B98200513BFC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
