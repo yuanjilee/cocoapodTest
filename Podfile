@@ -6,7 +6,7 @@ target 'CocoapodTest' do
   
   pod 'Alamofire'
   pod 'AFramework', :path=>'/Users/yuanjilee/Desktop/iOS_Demo/CocoapodTest/AFramework'
-
+	
 
 end
 

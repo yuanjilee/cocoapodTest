@@ -7,7 +7,7 @@
     "file": "LICENSE"
   },
   "authors": {
-    "yuanjilee": "#你的邮箱地址#"
+    "yuanjilee": "yuanjilee@icloud.com"
   },
   "homepage": "#你的项目主页地址#",
   "platforms": {
@@ -17,8 +17,8 @@
     "git": "#你的项目 Git 地址#",
     "tag": "0.1.0"
   },
-  "requires_arc": true,
   "source_files": "AFramework/*.{swift}",
+  "requires_arc": true,
   "dependencies": {
     "PMJSON": [
 
