@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		69507A5A683D9534F6A4FA53 /* Pods_CocoapodTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20AE2D182751FE7230CD8F6B /* Pods_CocoapodTest.framework */; };
 		7A1248281F174B59004308E6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1248271F174B59004308E6 /* SecondViewController.swift */; };
+		7A1248561F176C7A004308E6 /* BFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1248531F176C54004308E6 /* BFramework.framework */; };
 		7A9ABE6D1F1392C100513BFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9ABE6C1F1392C100513BFC /* AppDelegate.swift */; };
 		7A9ABE6F1F1392C100513BFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9ABE6E1F1392C100513BFC /* ViewController.swift */; };
 		7A9ABE721F1392C100513BFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A9ABE701F1392C100513BFC /* Main.storyboard */; };
@@ -25,6 +26,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		7A1248521F176C54004308E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A12484D1F176C54004308E6 /* BFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7A1248331F176C1C004308E6;
+			remoteInfo = BFramework;
+		};
+		7A1248541F176C54004308E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A12484D1F176C54004308E6 /* BFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7A12483C1F176C1C004308E6;
+			remoteInfo = BFrameworkTests;
+		};
 		7A9ABE7E1F1392C100513BFC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7A9ABE611F1392C100513BFC /* Project object */;
@@ -67,6 +82,7 @@
 /* Begin PBXFileReference section */
 		20AE2D182751FE7230CD8F6B /* Pods_CocoapodTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoapodTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A1248271F174B59004308E6 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7A12484D1F176C54004308E6 /* BFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BFramework.xcodeproj; path = BFramework/BFramework.xcodeproj; sourceTree = "<group>"; };
 		7A9ABE691F1392C100513BFC /* CocoapodTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoapodTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A9ABE6C1F1392C100513BFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A9ABE6E1F1392C100513BFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A1248561F176C7A004308E6 /* BFramework.framework in Frameworks */,
 				69507A5A683D9534F6A4FA53 /* Pods_CocoapodTest.framework in Frameworks */,
 				AF009763ED3F2C6AF95DAA94 /* Pods_CocoapodTest.framework in Frameworks */,
 			);
@@ -120,9 +137,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A12484E1F176C54004308E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A1248531F176C54004308E6 /* BFramework.framework */,
+				7A1248551F176C54004308E6 /* BFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		7A9ABE601F1392C100513BFC = {
 			isa = PBXGroup;
 			children = (
+				7A12484D1F176C54004308E6 /* BFramework.xcodeproj */,
 				7A9ABE6B1F1392C100513BFC /* CocoapodTest */,
 				7A9ABE801F1392C100513BFC /* CocoapodTestTests */,
 				7A9ABE8B1F1392C100513BFC /* CocoapodTestUITests */,
@@ -314,6 +341,12 @@
 			mainGroup = 7A9ABE601F1392C100513BFC;
 			productRefGroup = 7A9ABE6A1F1392C100513BFC /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7A12484E1F176C54004308E6 /* Products */;
+					ProjectRef = 7A12484D1F176C54004308E6 /* BFramework.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				7A9ABE681F1392C100513BFC /* CocoapodTest */,
@@ -323,6 +356,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7A1248531F176C54004308E6 /* BFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = BFramework.framework;
+			remoteRef = 7A1248521F176C54004308E6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7A1248551F176C54004308E6 /* BFrameworkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BFrameworkTests.xctest;
+			remoteRef = 7A1248541F176C54004308E6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		7A9ABE671F1392C100513BFC /* Resources */ = {
